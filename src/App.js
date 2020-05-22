@@ -14,7 +14,7 @@ export default class App extends Component {
         <NavbarComponent />
         <JumbotronComponent />
         <BrowserRouter>
-          <Route path="/" exact component={HomeContainer} />
+          <Route path="/react-deploy" exact component={HomeContainer} />
 
           <Route path="/create" exact component={CreateUserContainer} />
 
