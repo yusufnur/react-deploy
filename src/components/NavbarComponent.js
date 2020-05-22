@@ -25,7 +25,7 @@ const NavbarComponent = (props) => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
             <NavItem>
-              <NavLink href="/">Home</NavLink>
+              <NavLink href="/react-deploy">Home</NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="https://desangasinan.com/profil-2/">About us</NavLink>
